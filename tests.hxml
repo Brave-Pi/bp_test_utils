@@ -1,0 +1,7 @@
+--library tink_macro
+--library tink_core
+--library tink_unittest
+-cp src
+-cp tests
+-main RunTests
+--python test.py

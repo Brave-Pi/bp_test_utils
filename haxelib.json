@@ -1,0 +1,20 @@
+{
+  "name": "bp_test_utils",
+  "license": "MIT",
+  "tags": [
+    "brave-pi",
+    "test",
+    "utils"
+  ],
+  "classPath": "src",
+  "contributors": [
+    "piboistudios",
+    "PhilipHayes"
+  ],
+  "releasenote": "initial release",
+  "version": "0.0.0",
+  "url": "https://github.com/brave-pi/bp_test_utils/",
+  "dependencies": {
+    "tink_macro": ""
+  }
+}
