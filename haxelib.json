@@ -15,7 +15,6 @@
   "version": "0.0.0",
   "url": "https://github.com/brave-pi/bp_test_utils/",
   "dependencies": {
-    "tink_macro": "",
-    "bp_core": ""
+    "tink_macro": ""
   }
 }
