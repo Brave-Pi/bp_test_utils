@@ -2,9 +2,7 @@ package;
 
 import tink.unit.*;
 import tink.testrunner.*;
-import tink.streams.Stream;
 import tink.CoreApi;
-import bp.test.Utils.attempt;
 
 using Lambda;
 using bp.test.Utils;
@@ -23,9 +21,10 @@ class Test {
 		var shouldFail = asserts.assert(({
 			var d:Dynamic = null;
 			var z = d.x * d.x;
+			trace(z);
 			Noise;
-		}).attempt(true));
-		var shouldPass = asserts.assert(attempt(39 / 1) == true);
+		}).attempt());
+		var shouldPass = asserts.assert((39 / 1).attempt() == true);
 		return asserts.assert(!shouldFail.holds.toBool() && shouldPass.holds.toBool());
 	}
 }
